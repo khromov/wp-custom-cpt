@@ -1,7 +1,7 @@
 <?php
 add_action('init', 'cptui_register_my_cpt_author');
 function cptui_register_my_cpt_author() {
-	register_post_type('book-author', array(
+	register_post_type('author', array(
 		'label' => 'Authors',
 		'description' => 'A database of authors.',
 		'public' => true,
