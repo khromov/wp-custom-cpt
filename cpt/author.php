@@ -10,7 +10,7 @@ function cptui_register_my_cpt_author() {
 		'capability_type' => 'post',
 		'map_meta_cap' => true,
 		'hierarchical' => false,
-		'rewrite' => array('slug' => 'author', 'with_front' => true),
+		'rewrite' => array('slug' => 'book-author', 'with_front' => true),
 		'query_var' => true,
 		'supports' => array('title','editor','excerpt','trackbacks','custom-fields','comments','revisions','thumbnail','author','page-attributes','post-formats'),
 		'labels' => array (
